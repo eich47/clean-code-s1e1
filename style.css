@@ -91,6 +91,7 @@ label[for="new-task"] {
 }
 #new-task {
   width: 318px;
+  box-sizing: border-box;
 }
 p > button:hover {
   color: #0fc57c;
@@ -144,6 +145,7 @@ ul li input[type=text] {
 ul .edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
+  box-sizing: border-box;
 }
 
 ul .edit-mode label {
